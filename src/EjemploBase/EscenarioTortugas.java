@@ -21,10 +21,10 @@ public class EscenarioTortugas extends TurtleFrame{
     }
     
     public void iniciar(){
-       Rectangulo r=new Rectangulo(tortuga2);
-       r.start();
-       HiloBase hilo = new HiloBase(tortuga1);
-       hilo.start();
+        Tortuga5 t=new Tortuga5(tortuga1);
+        t.start();
+        Tortuga4 r=new Tortuga4(tortuga2);
+        r.start();
        
     }
     
