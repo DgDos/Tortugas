@@ -31,7 +31,7 @@ public class Tortuga5 extends Thread {
         }
         this.tortuga.right(90);
         this.tortuga.penUp();
-        this.tortuga.forward(35);
+        this.tortuga.forward(25);
         this.tortuga.penDown();
         for (int i = 0; i < 2; i++) {
             this.tortuga.forward(15);
@@ -39,5 +39,6 @@ public class Tortuga5 extends Thread {
             this.tortuga.forward(20);
             this.tortuga.right(90);
         }
+        this.tortuga.hideTurtle();
     }
 }

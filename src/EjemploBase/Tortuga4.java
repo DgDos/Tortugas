@@ -26,8 +26,10 @@ public class Tortuga4 extends Thread {
         this.tortuga.forward(15);
         this.tortuga.right(90);
         this.tortuga.forward(10);
+        this.tortuga.forward(15);
+        this.tortuga.left(90);
         this.tortuga.penDown();
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 3; i++) {
             this.tortuga.forward(15);
             this.tortuga.left(90);
         }
@@ -46,7 +48,7 @@ public class Tortuga4 extends Thread {
         this.tortuga.forward(2);
         this.tortuga.left(90);
         this.tortuga.forward(7.5);
-        this.tortuga.forward(10);
+        this.tortuga.forward(15);
         this.tortuga.left(90);
         this.tortuga.forward(5);
         this.tortuga.penDown();
@@ -70,5 +72,7 @@ public class Tortuga4 extends Thread {
             this.tortuga.forward(5);
             this.tortuga.right(90);
         }
+        this.tortuga.hideTurtle();
+              
     }
 }
