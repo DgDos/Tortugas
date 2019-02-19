@@ -20,6 +20,6 @@ public class HiloBase extends Thread{
 
     @Override
     public void run() {
-      this.tortuga.forward(100);
+      this.tortuga.forward(300);
     }
 }
